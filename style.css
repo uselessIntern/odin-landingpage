@@ -50,6 +50,33 @@
     align-items: center;
 }
 
+.signup {
+    display: flex;
+    margin-top: 10px;
+}
+ button {
+    color: #f9faf8;
+    background-color: #3882f6;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-grid-item {
+    border: 1px solid #3882f6;
+    width: 300px;
+    height: 300px;
+}
+
 
 
 
