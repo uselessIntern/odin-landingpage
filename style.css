@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu-container {
@@ -71,19 +72,24 @@ button {
     color: #f9faf8;
     background-color: #3882f6;
     border: none;
-    padding: 5px 32px;
+    padding: 10px 24px;
+    border-radius: 8px;
 }
 
 .photo-grid-container {
     display: flex;
     justify-content: center;
+    padding: 20px 0;
 }
 
 .random-info {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 75px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .photo-grid {
@@ -92,7 +98,7 @@ button {
     padding: 10px;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
 }
@@ -103,42 +109,90 @@ img {
 }
 
 .photo-grid-item {
-    border: 1px solid #3882f6;
-    width: 100px;
-    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 125px;
+    height: 125px;
+    padding: 10px;
 }
 
 .subtext {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-top: 20px;
+    padding-bottom: 20px; 
+    
 }
 
 .section-three-container {
     display: flex;
     justify-content: center;
     background-color:  #e5e7eb;
+    padding: 60px 60px;
 }
 
 .quote {
-    display: flex;
-    height: 100px;
-    margin-top: 25px;
+    display: flex;    
 }
 
+.quote-text {
+    display: flex;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.bladerunner {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.section-four-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    padding: 30px 60px;
+    background-color: #3882f6;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f9faf8;
+}
+
+.last-button {
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
+    margin-left: 40px;
+}
 
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    color: #f9faf8;
+    background-color: #1f2937;
+    height: 65px;
 }
 
 .footer-item {
-    color: #f9faf8;
-    background-color: #1f2937;
-    height: 200px;
-    flex: 1;
+    display: flex;
+    align-items: center;
 }
+
+
 
 
 
