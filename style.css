@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     color: #f9faf8;
-    background-color: #1f2937;
+    background-color: #000000;
     padding: 20px 0;    
 }
 
@@ -38,7 +38,7 @@
 
 .header-container {
     color: #f9faf8;
-    background-color: #1f2937;
+    background-color: #d6a444;
     display: flex;
     justify-content: center;
     padding: 40px 225px;
@@ -70,7 +70,7 @@
 }
 button {
     color: #f9faf8;
-    background-color: #3882f6;
+    background-color: 	#a71313;
     border: none;
     padding: 10px 24px;
     border-radius: 8px;
@@ -109,7 +109,7 @@ img {
 }
 
 .photo-grid-item {
-    border: 3px solid #3882f6;
+    border: 3px solid 	#a71313;
     border-radius: 8px;
     width: 125px;
     height: 125px;
@@ -118,6 +118,7 @@ img {
 
 .subtext {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     margin-top: 20px;
@@ -128,12 +129,13 @@ img {
 .section-three-container {
     display: flex;
     justify-content: center;
-    background-color:  #e5e7eb;
+    background: rgba(214,164,68);
     padding: 60px 60px;
 }
 
 .quote {
-    display: flex;    
+    display: flex; 
+    font-weight: lighter;   
 }
 
 .quote-text {
@@ -159,10 +161,10 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid #3882f6;
+    border: 1px solid #2f5ba5;
     border-radius: 10px;
     padding: 30px 60px;
-    background-color: #3882f6;
+    background-color: 	#2f5ba5;
 }
 
 .call-to-action {
@@ -173,7 +175,7 @@ img {
 }
 
 .last-button {
-    border: 1px solid #f9faf8;
+    border: 1px solid #a71313;
     border-radius: 8px;
     margin-left: 40px;
 }
@@ -183,7 +185,7 @@ img {
     display: flex;
     justify-content: space-around;
     color: #f9faf8;
-    background-color: #1f2937;
+    background-color: #000000;
     height: 65px;
 }
 
